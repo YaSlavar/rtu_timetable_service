@@ -6,9 +6,22 @@ services:
     command: bash -c "ls && python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
+      - ./rtu_timetable_api/output:/code/timetable_app/db
     ports:
       - "80:8000"
     env_file:
       - ./env.dev
+    depends_on:
+      - api
 
+  api:
+    build: ./rtu_timetable_api
+    command: bash -c "ls && python main.py"
+    volumes:
+      - ./rtu_timetable_api:/code
+      - ./rtu_timetable_api/output:/code/output
+    ports:
+      - "5000:8000"
+    env_file:
+      - ./env.dev
 

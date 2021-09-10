@@ -7,7 +7,10 @@
                 ({{ one_day_value.today_name }})
             {% endif %}
         </div>
-        <div class="day_card {% if date == today_date %} today {% endif %} ">
+        <div class="day_card
+                {% if date == today_date %} today {% endif %}
+                {% if one_day_value.day_name == 'Воскресенье' %} weekend {% endif %}
+        ">
             {% for lesson_time, lesson_value in one_day_value.lessons.items %}
                 <table class="day_timetable">
                     <tr>
@@ -25,6 +28,9 @@
                             <div class="room">
                                 {% if lesson_value.room %}
                                     {{ lesson_value.room }}
+                                    <div class="lesson_type">
+                                        ( {{ lesson_value.lesson_type }} )
+                                    </div>
                                 {% else %}
                                     <div class="room disable_info disable_room"></div>
                                 {% endif %}

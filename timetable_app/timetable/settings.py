@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'timetable.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'timetable.db',
+        'NAME': BASE_DIR / 'db/timetable.db',
     }
 }
 

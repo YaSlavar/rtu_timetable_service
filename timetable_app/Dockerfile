@@ -23,6 +23,6 @@ COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 
 # copy project
-COPY . /code/
+COPY ./timetable_app /code/
 
-WORKDIR /code/timetable_app
+WORKDIR /code/timetable_app/

@@ -105,6 +105,10 @@ div#num_week {
     box-shadow: 0 9px 19px 1px #00b8a93d;
 }
 
+.weekend{
+    box-shadow: 0 9px 19px 1px #B800003D;
+}
+
 /* 1.3 CARD_TABLE */
 .day_timetable {
     width: 100%;
@@ -133,6 +137,12 @@ TD.lesson {
 .room {
     color: #00b8a9;
     font-size: 1em;
+    display: flex;
+}
+
+.lesson_type{
+    color: #aaaaaa;
+    margin-left: 5px;
 }
 
 .teacher {

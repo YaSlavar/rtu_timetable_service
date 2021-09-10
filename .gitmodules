@@ -1,0 +1,7 @@
+[submodule "rtu_timetable_api"]
+	path = rtu_timetable_api
+	url = https://github.com/YaSlavar/rtu_timetable_api.git
+
+[submodule "parser_mirea"]
+	path = rtu_timetable_api/parser_mirea
+	url = https://github.com/YaSlavar/parser_mirea.git
