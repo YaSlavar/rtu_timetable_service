@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  web:
+    build: ./timetable_app
+    command: bash -c "ls && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/code
+    ports:
+      - "80:8000"
+    env_file:
+      - ./env.dev
+
+

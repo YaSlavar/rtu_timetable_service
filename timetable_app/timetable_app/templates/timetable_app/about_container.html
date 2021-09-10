@@ -1,0 +1,11 @@
+{% block about_container %}
+<div class="about_container">
+    <div class="calendar day justify-content-center"></div>
+    <div class="feedback d-flex">
+        Для обратной связи: <a href="#">{{ admin_email }}</a>
+    </div>
+    <div class="last_upload_date">
+        Последнее обновление расписания: {{ update_timetable_date }}
+    </div>
+</div>
+{% endblock about_container %}

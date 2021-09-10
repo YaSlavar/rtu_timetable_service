@@ -1,0 +1,52 @@
+{% block get_ics_modal %}
+    <div class="modal fade" id="get_ics_modal" role="dialog"
+         aria-labelledby="search_modal" aria-hidden="false">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Загрузить расписание в календарь</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="get_ics" method="post" name="get_ics">
+                    {% csrf_token %}
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <div class="form-group">
+
+                                <label for="select_ics_group">Группа</label>
+                                <select class="select_ics_group form-control" id="select_ics_group" name="group">
+                                    {% for group_name in groups_list %}
+                                        <option value="{{ group_name }}">{{ group_name }}</option>
+                                    {% endfor %}
+                                </select>
+
+                            </div>
+                            <div class="separated_border">
+                                <div class="separated_text">+</div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="date_from" class="">С даты</label>
+                                    <input type="date" class="form-control" id="date_from" name="date_from"
+                                           placeholder="Дата">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="date_to" class="">По дату</label>
+                                    <input type="date" class="form-control" id="date_to" name="date_to"
+                                           placeholder="Дата">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Скачать .ics календарь</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock get_ics_modal %}

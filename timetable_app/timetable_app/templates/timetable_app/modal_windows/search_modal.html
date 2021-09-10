@@ -1,0 +1,58 @@
+{% block search_modal %}
+    <div class="modal fade" id="search_modal" role="dialog"
+         aria-labelledby="search_modal" aria-hidden="false">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Поиск</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <form action="" method="get" name="select_group">
+                                <label for="group">По группам</label>
+                                <select class="select_group form-control" id="group" name="group"
+                                        onchange="document.forms['select_group'].submit()">
+                                    {% for group_name in groups_list %}
+                                        <option value="{{ group_name }}">{{ group_name }}</option>
+                                    {% endfor %}
+                                </select>
+                            </form>
+                        </div>
+                        <div class="separated_border">
+                            <div class="separated_text">или</div>
+                        </div>
+                        <div class="form-group">
+                            <form action="" method="get" name="select_teacher">
+                                <label for="teacher">По преподавателям</label>
+                                <select class="select_teachers form-control" id="teacher" name="teacher"
+                                        onchange="document.forms['select_teacher'].submit()">
+                                    {% for teacher_name in teacher_names_list %}
+                                        <option value="{{ teacher_name }}">{{ teacher_name }}</option>
+                                    {% endfor %}
+                                </select>
+                            </form>
+                        </div>
+                        <div class="separated_border">
+                            <div class="separated_text">или</div>
+                        </div>
+                        <div class="form-group">
+                            <form action="" method="get" name="select_room">
+                                <label for="rooms">По номеру аудитории</label>
+                                <select class="select_rooms form-control" id="rooms" name="room"
+                                        onchange="document.forms['select_room'].submit()">
+                                    {% for room in rooms_list %}
+                                        <option value="{{ room }}">{{ room }}</option>
+                                    {% endfor %}
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock search_modal %}

@@ -1,0 +1,1707 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+DTEND:20210211T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210211T150000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:a429cead-2439-411f-b33f-5b56ab709c39@a429.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+DTEND:20210331T073000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210331T060000Z
+SUMMARY:гр==Инфраструктура открытых ключей в СЗИ
+UID:7452098b-4021-4e1f-99d6-fe2ad2da7c8c@7452.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210222T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210222T132000Z
+SUMMARY:Военная кафедра
+UID:c9e43e34-154f-4bb7-857c-f3b263110e71@c9e4.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+DTEND:20210302T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210302T132000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:646ed28a-be61-4ae5-a83e-6086e63ea5e9@646e.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+DTEND:20210312T145000Z
+LOCATION:Аудитория: 285
+DTSTART:20210312T132000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:e619ed8b-8759-4357-bcea-97bcfb4c6989@e619.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экономика предприятия\nПреподаватель: Буров В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Экономика предприятия\nПреподаватель: Буров В.В.
+DTEND:20210312T163000Z
+LOCATION:Аудитория: 212
+DTSTART:20210312T150000Z
+SUMMARY:Экономика предприятия
+UID:d27d4228-7f45-4346-a80f-3e59527677da@d27d.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210327T132000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210327T115000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:6f3d2382-8475-45ae-a94e-7c2c6a3716c0@6f3d.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210225T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210225T132000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:30668693-f345-4fe7-b265-3e521aff7839@3066.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210315T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210315T074000Z
+SUMMARY:Военная кафедра
+UID:a32ae3ac-73c5-4096-bc27-f4f6b6ac02fb@a32a.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210331T111000Z
+LOCATION:Аудитория: 281
+DTSTART:20210331T094000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:98e0ab4a-e3d0-40d0-b7bb-9f3299a41c01@98e0.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210208T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210208T132000Z
+SUMMARY:Военная кафедра
+UID:fff99187-ab36-4ee2-a4f6-f517b27f6efd@fff9.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210210T111000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210210T094000Z
+SUMMARY:Техническая защита информации
+UID:478b8abc-9ab2-49ac-b136-f31b513549b8@478b.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210308T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210308T112000Z
+SUMMARY:Военная кафедра
+UID:7446800a-9c70-4d67-87fe-6832d66844b3@7446.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+DTEND:20210330T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210330T132000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:284c6f32-e543-45ba-8f6f-d969487afca2@284c.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210222T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210222T060000Z
+SUMMARY:Военная кафедра
+UID:cb5101ca-1780-4f6e-a777-e4f3d0677cdf@cb51.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: 
+DTEND:20210401T163000Z
+LOCATION:Аудитория: КБ-1 №6     13
+DTSTART:20210401T150000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:9be1dd53-fd49-408c-a578-d22676e6eb9a@9be1.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+DTEND:20210317T145000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210317T132000Z
+SUMMARY:гр.=
+UID:0ec49941-cc1a-4562-bf0a-c91d255ea081@0ec4.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210308T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210308T132000Z
+SUMMARY:Военная кафедра
+UID:844a770e-ed97-4436-94de-d06c4581023a@844a.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210223T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210223T132000Z
+SUMMARY:Цифровая обработка сигналов
+UID:ea06c6c7-99eb-47c0-805d-335f0604a361@ea06.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210315T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210315T060000Z
+SUMMARY:Военная кафедра
+UID:36f10000-f741-409f-8334-aee11f0a530e@36f1.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210308T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210308T060000Z
+SUMMARY:Военная кафедра
+UID:4fcf3b88-046b-4959-baf7-ef85589bc9c0@4fcf.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210217T111000Z
+LOCATION:Аудитория: 281
+DTSTART:20210217T094000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:410c63ac-5a93-4fca-8506-6b8b2d230fec@410c.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+DTEND:20210217T145000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210217T132000Z
+SUMMARY:гр.=
+UID:f3a2c9b3-9992-4eae-93a3-fe6f6c0df10f@f3a2.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210210T091000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210210T074000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:5b6191ea-732c-4078-bdb7-160d8802f903@5b61.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210301T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210301T132000Z
+SUMMARY:Военная кафедра
+UID:16f41322-623c-475a-902d-d8623d820370@16f4.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210329T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210329T112000Z
+SUMMARY:Военная кафедра
+UID:9e013845-ec0b-4838-814d-c211cb527bed@9e01.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210222T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210222T074000Z
+SUMMARY:Военная кафедра
+UID:540ad3ec-2ae1-499b-9bc3-88fb063cef75@540a.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210323T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210323T150000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:51ce0990-f54c-47a0-8cdc-3a84958f3cd8@51ce.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210224T125000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210224T112000Z
+SUMMARY:Техническая защита информации
+UID:41eceef9-e28c-432e-8899-0b62dbe19885@41ec.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210310T125000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210310T112000Z
+SUMMARY:Техническая защита информации
+UID:bb454f37-e57d-4c0c-87ed-c3431360dfd7@bb45.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+DTEND:20210225T111000Z
+LOCATION:Аудитория: Д
+DTSTART:20210225T094000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:b2ed32be-f6e5-449c-9990-e565600dd23c@b2ed.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210326T125000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210326T112000Z
+SUMMARY:Цифровая обработка сигналов
+UID:1aa7e460-99ca-4cd5-8e5d-fa1aba0f1f21@1aa7.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210308T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210308T094000Z
+SUMMARY:Военная кафедра
+UID:cb27f34d-607b-45a9-bd08-b6b71418e03f@cb27.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210313T132000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210313T115000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:a7ee451d-28dc-425d-9494-c4d35ea1d5f6@a7ee.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210310T111000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210310T094000Z
+SUMMARY:Техническая защита информации
+UID:5d66922c-165b-4690-8922-8a0f72ac0174@5d66.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экономика предприятия\nПреподаватель: Буров В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Экономика предприятия\nПреподаватель: Буров В.В.
+DTEND:20210212T163000Z
+LOCATION:Аудитория: 212
+DTSTART:20210212T150000Z
+SUMMARY:Экономика предприятия
+UID:aab242ee-30ed-4a55-9071-660aff3a0c21@aab2.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+DTEND:20210303T073000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210303T060000Z
+SUMMARY:гр==Инфраструктура открытых ключей в СЗИ
+UID:f096352e-09a5-46ef-9443-2fdb5148b2b6@f096.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210303T145000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210303T132000Z
+SUMMARY:гр.=Создание автоматизированных систем в защищенном исполнении
+UID:2dee0364-98a9-45f9-bda9-3bdc407911a6@2dee.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+DTEND:20210302T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210302T150000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:dfbf442a-a313-46ca-b040-a8982593710a@dfbf.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+DTEND:20210217T163000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210217T150000Z
+SUMMARY:гр.=
+UID:0d185705-3d3e-4b0c-bdac-144e9445ea93@0d18.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+DTEND:20210211T125000Z
+LOCATION:Аудитория: Д
+DTSTART:20210211T112000Z
+SUMMARY:Техническая защита информации
+UID:e06bc892-53c4-4a8e-959e-dca8dac5d58e@e06b.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210311T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210311T132000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:669fa3f7-6d31-41d6-a0c3-ff211d800823@669f.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210329T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210329T060000Z
+SUMMARY:Военная кафедра
+UID:c0951de1-c6bc-4f27-93cc-caed07dfd3b9@c095.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210322T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210322T112000Z
+SUMMARY:Военная кафедра
+UID:131bb1e2-7fec-4669-8f40-6b591a00f0fd@131b.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210213T132000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210213T115000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:ec3747e2-cee2-47b2-8b15-f22d42c9c161@ec37.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+DTEND:20210225T125000Z
+LOCATION:Аудитория: Д
+DTSTART:20210225T112000Z
+SUMMARY:Техническая защита информации
+UID:4680e935-6701-4b54-9797-ee101c164629@4680.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+DTEND:20210217T091000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210217T074000Z
+SUMMARY:гр.=
+UID:5b0a4b70-310f-4c13-8914-f7532b614cb4@5b0a.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210227T132000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210227T115000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:f6d09fc0-43ce-4bef-8dd7-dbb9f439416c@f6d0.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+DTEND:20210227T150000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210227T133000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:a7e096e2-ec56-47c7-ae5f-d6950fa9ccc3@a7e0.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210215T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210215T132000Z
+SUMMARY:Военная кафедра
+UID:96280240-eab3-4451-afd7-02f83c2e33ef@9628.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210224T111000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210224T094000Z
+SUMMARY:Техническая защита информации
+UID:5aa642fe-6dfc-4a11-8b66-f27dfd0d27f3@5aa6.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210301T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210301T094000Z
+SUMMARY:Военная кафедра
+UID:5b595cf1-2bfa-43a8-bc43-7e2cce7d7b27@5b59.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+DTEND:20210211T111000Z
+LOCATION:Аудитория: Д
+DTSTART:20210211T094000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:71d0dd31-6c54-4bd6-b52a-f963e2a802ba@71d0.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210222T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210222T094000Z
+SUMMARY:Военная кафедра
+UID:67f14db8-2029-4c30-a9dc-b5b9f583b573@67f1.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: 
+DTEND:20210401T145000Z
+LOCATION:Аудитория: КБ-1 №6     13
+DTSTART:20210401T132000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:9da1440c-e7ed-4867-9fa1-cabae0668d1f@9da1.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+DTEND:20210317T091000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210317T074000Z
+SUMMARY:гр.=
+UID:7c44b908-b23d-430c-ab0d-97bddff07803@7c44.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210215T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210215T094000Z
+SUMMARY:Военная кафедра
+UID:55329113-0896-47e2-8f47-be74636f64e1@5532.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210324T125000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210324T112000Z
+SUMMARY:Техническая защита информации
+UID:f2d98650-0dc4-43da-81c0-05cbdff9d612@f2d9.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+DTEND:20210311T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210311T150000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:3e03b3cc-4ce8-4b96-8e0c-7a0483e3f0e0@3e03.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210324T111000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210324T094000Z
+SUMMARY:Техническая защита информации
+UID:6dee5647-90f7-48dd-aab0-5ebbbac797d6@6dee.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210329T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210329T094000Z
+SUMMARY:Военная кафедра
+UID:d69e3921-30c3-4d05-a51a-375a6265cc86@d69e.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210308T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210308T074000Z
+SUMMARY:Военная кафедра
+UID:6e7072bf-ec00-4156-8755-39a791436129@6e70.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+DTEND:20210217T125000Z
+LOCATION:Аудитория: 283
+DTSTART:20210217T112000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:ec5e2650-4b38-4380-a58c-ffb0dd75d574@ec5e.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+DTEND:20210325T111000Z
+LOCATION:Аудитория: Д
+DTSTART:20210325T094000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:e91ce1b1-f2dc-4832-bd31-799f8fdfb157@e91c.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210312T125000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210312T112000Z
+SUMMARY:Цифровая обработка сигналов
+UID:4803b441-ecf6-4a21-a2c9-84eefbaa7818@4803.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210208T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210208T060000Z
+SUMMARY:Военная кафедра
+UID:48f4a8d2-aa57-4000-b477-eb561e8ffbe1@48f4.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+DTEND:20210225T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210225T150000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:ad0dd5ae-599a-4e0f-9d2e-2217e3b4cce9@ad0d.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Худяков А.А.
+DTEND:20210210T125000Z
+LOCATION:Аудитория: КБ-1\n№3
+DTSTART:20210210T112000Z
+SUMMARY:Техническая защита информации
+UID:b3119474-3ad0-44b9-b8b1-45cb68de8b20@b311.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210331T145000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210331T132000Z
+SUMMARY:гр.=Создание автоматизированных систем в защищенном исполнении
+UID:583d1915-19bd-4fb8-9921-a581248134c7@583d.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210303T163000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210303T150000Z
+SUMMARY:гр.=Создание автоматизированных систем в защищенном исполнении
+UID:50f5dbd3-4eb1-45f4-a9fb-95c17c66de34@50f5.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+DTEND:20210325T125000Z
+LOCATION:Аудитория: Д
+DTSTART:20210325T112000Z
+SUMMARY:Техническая защита информации
+UID:c0bb26aa-058b-4847-9bc6-d9b2c0736cfb@c0bb.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+DTEND:20210331T091000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210331T074000Z
+SUMMARY:гр==Инфраструктура открытых ключей в СЗИ
+UID:d3ea3f3e-dcc3-4827-af0e-a6e6478a820c@d3ea.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экономика предприятия\nПреподаватель: Будович Л.С.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Экономика предприятия\nПреподаватель: Будович Л.С.
+DTEND:20210216T125000Z
+LOCATION:Аудитория: Д
+DTSTART:20210216T112000Z
+SUMMARY:Экономика предприятия
+UID:c7c5dcc5-8449-46c2-9ee9-270fe41f806b@c7c5.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210323T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210323T132000Z
+SUMMARY:Цифровая обработка сигналов
+UID:fedef8d7-cbf2-4c0e-85f5-79672f400fe6@fede.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+DTEND:20210216T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210216T132000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:12fcdeee-a526-4837-b3ca-f80fc286dd12@12fc.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210325T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210325T132000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:83fffa92-9af6-4d83-b99c-d9a78d9525ba@83ff.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+DTEND:20210303T125000Z
+LOCATION:Аудитория: 283
+DTSTART:20210303T112000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:d3174cbd-1c83-4bb5-80b8-27ca01957a9f@d317.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210215T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210215T074000Z
+SUMMARY:Военная кафедра
+UID:dbce8f45-52f0-4f38-a7b0-f5655b67810d@dbce.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Федин Ф.О.
+DTEND:20210316T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210316T132000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:ae02d1e4-b135-4bc0-b84f-d122463ad1f4@ae02.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210215T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210215T060000Z
+SUMMARY:Военная кафедра
+UID:93b6954f-7656-489d-a7a0-e332dfbf8c74@93b6.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+DTEND:20210327T150000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210327T133000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:a30f0037-e38d-4c5c-bd17-86859886b9be@a30f.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210322T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210322T094000Z
+SUMMARY:Военная кафедра
+UID:4bb6df74-84c7-4c84-996c-6c3939d52b99@4bb6.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210226T125000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210226T112000Z
+SUMMARY:Цифровая обработка сигналов
+UID:49c3da95-c7d5-4678-8ddf-0112a1b74f76@49c3.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+DTEND:20210317T073000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210317T060000Z
+SUMMARY:гр.=
+UID:1778dc25-56ea-4c1a-991b-faf66a61ce94@1778.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210223T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210223T150000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:5cd2eaea-006b-43d7-88b6-0354c1dfd169@5cd2.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210322T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210322T060000Z
+SUMMARY:Военная кафедра
+UID:773ed437-95db-4c93-a6b4-da706511356d@773e.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210309T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210309T150000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:8340fff0-1a79-4f23-a79f-1b7acaa2170b@8340.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210215T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210215T112000Z
+SUMMARY:Военная кафедра
+UID:73f1a19f-07fc-4d55-8bd3-852e6db84499@73f1.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+DTEND:20210212T145000Z
+LOCATION:Аудитория: 285
+DTSTART:20210212T132000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:925cab58-3c45-4c52-9565-9648c4e7d9b1@925c.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210301T073000Z
+LOCATION:Аудитория: 
+DTSTART:20210301T060000Z
+SUMMARY:Военная кафедра
+UID:cbc89a45-b580-4240-b44b-468261ae7f93@cbc8.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210212T125000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210212T112000Z
+SUMMARY:Цифровая обработка сигналов
+UID:8d5f9de0-02cb-4b62-9ece-fee1ba0ab0cf@8d5f.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210208T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210208T094000Z
+SUMMARY:Военная кафедра
+UID:bbf02a2e-9417-478f-8890-17dbb9f101f1@bbf0.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+DTEND:20210216T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210216T150000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:0e560466-cfff-43a7-bb9e-3f7dd9e65986@0e56.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210315T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210315T132000Z
+SUMMARY:Военная кафедра
+UID:119c5cf0-bf49-4874-8e4f-eb295d5a549d@119c.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210301T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210301T112000Z
+SUMMARY:Военная кафедра
+UID:b2c405c8-8595-4b8b-bfe0-e9af3d4ee613@b2c4.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210209T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210209T150000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:6edd85c6-1dbf-43e5-9b41-bf0ef3ad7d05@6edd.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210322T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210322T132000Z
+SUMMARY:Военная кафедра
+UID:dd339c17-6614-48a4-8e1a-7f758d35b3d6@dd33.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210209T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210209T132000Z
+SUMMARY:Цифровая обработка сигналов
+UID:7ed7ece2-3970-47c1-a7ab-ad11337d4aad@7ed7.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+DTEND:20210226T145000Z
+LOCATION:Аудитория: 285
+DTSTART:20210226T132000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:3c09e731-b46f-4505-bc5c-c122d8940091@3c09.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210315T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210315T112000Z
+SUMMARY:Военная кафедра
+UID:4d0f25bb-bb9f-4694-b6a6-237b224f6bbc@4d0f.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Федин Ф.О.
+DTEND:20210217T073000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210217T060000Z
+SUMMARY:гр.=
+UID:59887fa5-45ac-4ab5-909d-32c6b134fdd3@5988.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Потапова Д.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Потапова Д.А.
+DTEND:20210401T125000Z
+LOCATION:Аудитория: КБ-1   №285
+DTSTART:20210401T112000Z
+SUMMARY:Техническая защита информации
+UID:be516869-1acb-4d3e-b0c4-a5061b1c378f@be51.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Шукенбаев А.Б.
+DTEND:20210325T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210325T150000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:c4b77d70-0a8b-48bb-9e60-d6e895c4e0b2@c4b7.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+DTEND:20210213T150000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210213T133000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:b4a156e5-840e-45c6-96e4-c710634f867b@b4a1.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210224T091000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210224T074000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:3760ff76-ee9b-4066-9eb4-8ba1ca9a1906@3760.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=\nПреподаватель: Отраднов К.К.
+DTEND:20210317T163000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210317T150000Z
+SUMMARY:гр.=
+UID:c52ce52f-3b47-47e2-a5d7-a02b4138a8d5@c52c.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210301T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210301T074000Z
+SUMMARY:Военная кафедра
+UID:ed81bf2e-7754-45a9-a0df-841621fdb2d6@ed81.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210329T145000Z
+LOCATION:Аудитория: 
+DTSTART:20210329T132000Z
+SUMMARY:Военная кафедра
+UID:e5d7acaa-e641-47bd-a062-52e93c993367@e5d7.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210208T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210208T074000Z
+SUMMARY:Военная кафедра
+UID:3155b2b8-d802-4894-ad21-7ec15236e1e2@3155.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210222T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210222T112000Z
+SUMMARY:Военная кафедра
+UID:a8709994-0db5-4590-9b90-bc3171468065@a870.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+DTEND:20210331T125000Z
+LOCATION:Аудитория: 283
+DTSTART:20210331T112000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:25f54c95-01de-4e59-9112-1b3c2da5bbca@25f5.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр==Инфраструктура открытых ключей в СЗИ\nПреподаватель: Кунин Н.Т.
+DTEND:20210303T091000Z
+LOCATION:Аудитория: КБ-1 №13\, 283
+DTSTART:20210303T074000Z
+SUMMARY:гр==Инфраструктура открытых ключей в СЗИ
+UID:f0e4446e-d2b1-4a67-94cf-2a4ba267a6bd@f0e4.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Разработка и эксплуатация защищенных автоматизированных систем\nПреподаватель: Коданев В.Л.
+DTEND:20210317T125000Z
+LOCATION:Аудитория: 283
+DTSTART:20210317T112000Z
+SUMMARY:Разработка и эксплуатация защищенных автоматизированных систем
+UID:72bdefb9-adfe-4335-8042-2244e1e67e06@72bd.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:гр.=Создание автоматизированных систем в защищенном исполнении\nПреподаватель: 
+DTEND:20210331T163000Z
+LOCATION:Аудитория: КБ-1 №281
+DTSTART:20210331T150000Z
+SUMMARY:гр.=Создание автоматизированных систем в защищенном исполнении
+UID:b564abc1-2279-4d5a-8509-131303f81e3a@b564.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210310T091000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210310T074000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:ecacb547-17c6-4503-9aa8-f83fa0cf69b2@ecac.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210317T111000Z
+LOCATION:Аудитория: 281
+DTSTART:20210317T094000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:e4edae26-8949-438e-8777-1a8549567ebf@e4ed.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Техническая защита информации\nПреподаватель: Белецкий С.А.
+DTEND:20210311T125000Z
+LOCATION:Аудитория: Д
+DTSTART:20210311T112000Z
+SUMMARY:Техническая защита информации
+UID:f4922397-8414-4f86-b9a2-03aa0c9a737f@f492.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210322T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210322T074000Z
+SUMMARY:Военная кафедра
+UID:88dcf41c-74ba-43b7-a73d-1a15e6c04779@88dc.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210315T111000Z
+LOCATION:Аудитория: 
+DTSTART:20210315T094000Z
+SUMMARY:Военная кафедра
+UID:6e1f0687-600c-4480-9da0-e2b89875209b@6e1f.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Грачев А.С.
+DTEND:20210313T150000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210313T133000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:b919ce63-5cdd-4e0c-a9cc-c9bf37424e7d@b919.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+DTEND:20210316T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210316T150000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:ffaef4b2-4894-4d0c-82f7-2f7f80b55b77@ffae.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экономика предприятия\nПреподаватель: Будович Л.С.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Экономика предприятия\nПреподаватель: Будович Л.С.
+DTEND:20210316T125000Z
+LOCATION:Аудитория: Д
+DTSTART:20210316T112000Z
+SUMMARY:Экономика предприятия
+UID:aed6e403-eea4-4e68-9a70-224572f5685a@aed6.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210324T091000Z
+LOCATION:Аудитория: КБ-1\n№9
+DTSTART:20210324T074000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:189d970f-f3e1-4965-b8ed-0b5083403216@189d.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Создание автоматизированных систем в защищенном исполнении\nПреподаватель: Отраднов К.К.
+DTEND:20210326T145000Z
+LOCATION:Аудитория: 285
+DTSTART:20210326T132000Z
+SUMMARY:Создание автоматизированных систем в защищенном исполнении
+UID:6b5840d5-32c2-4bae-91ac-4bb70a9bd644@6b58.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210329T091000Z
+LOCATION:Аудитория: 
+DTSTART:20210329T074000Z
+SUMMARY:Военная кафедра
+UID:740367ef-97e8-4e32-a80b-1d96dc30a7a6@7403.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Программно-аппаратные средства обеспечения информационной безопасности\nПреподаватель: Белецкий С.А.
+DTEND:20210330T163000Z
+LOCATION:Аудитория: Д
+DTSTART:20210330T150000Z
+SUMMARY:Программно-аппаратные средства обеспечения информационной безопасности
+UID:537b4412-689b-4d02-901f-e6db47477508@537b.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Инфраструктура открытых ключей в СЗИ\nПреподаватель: Отраднов К.К.
+DTEND:20210211T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210211T132000Z
+SUMMARY:Инфраструктура открытых ключей в СЗИ
+UID:10f6c960-45ea-41f9-b93c-6d1a61de02c9@10f6.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Оценка информационной безопасности автоматизированных систем в защищенном исполнении\nПреподаватель: А.Н.
+DTEND:20210311T111000Z
+LOCATION:Аудитория: Д
+DTSTART:20210311T094000Z
+SUMMARY:Оценка информационной безопасности автоматизированных систем в защищенном исполнении
+UID:1e755fba-736e-4697-8a5a-482224e68276@1e75.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Военная кафедра\nПреподаватель: 
+DTEND:20210208T125000Z
+LOCATION:Аудитория: 
+DTSTART:20210208T112000Z
+SUMMARY:Военная кафедра
+UID:c770379c-69ca-418a-b961-8a6302638067@c770.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Цифровая обработка сигналов\nПреподаватель: Филинов В.В.
+DTEND:20210309T145000Z
+LOCATION:Аудитория: Д
+DTSTART:20210309T132000Z
+SUMMARY:Цифровая обработка сигналов
+UID:97e9b85f-a15a-4a5c-849c-16261ac05336@97e9.org
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Организационное и правовое обеспечение информационной безопасности\nПреподаватель: Пушкин П.Ю.
+DTEND:20210303T111000Z
+LOCATION:Аудитория: 281
+DTSTART:20210303T094000Z
+SUMMARY:Организационное и правовое обеспечение информационной безопасности
+UID:a8d612aa-24ff-43a8-ab48-d94265cc6900@a8d6.org
+END:VEVENT
+END:VCALENDAR

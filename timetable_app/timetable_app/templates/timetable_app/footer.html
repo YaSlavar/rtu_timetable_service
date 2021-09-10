@@ -1,0 +1,46 @@
+
+{% block footer %}
+<footer class="buttons_block fixed-bottom">
+    <div class="container">
+        <div class="buttons row">
+            <div class="selected_element">
+                {{ identity_name }}
+            </div>
+            <div class="search_button">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                     aria-labelledby="searchIconTitle" stroke="#000" stroke-width="1.2" stroke-linecap="square"
+                     stroke-linejoin="miter"
+                     fill="none">
+                    <title id="searchIconTitle">Поиск</title>
+                    <path d="M14.4121122,14.4121122 L20,20"/>
+                    <circle cx="10" cy="10" r="6"/>
+                </svg>
+            </div>
+            <div class="calendar_button">
+                <svg width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                     aria-labelledby="calendarEventIconTitle" stroke="#000" stroke-width="1.2" stroke-linecap="square"
+                     stroke-linejoin="miter" fill="none" color="#000">
+                    <title id="calendarEventIconTitle">Календарь</title>
+                    <path d="M3 5H21V21H3V5Z"/>
+                    <path d="M21 9H3"/>
+                    <path d="M7 5V3"/>
+                    <path d="M17 5V3"/>
+                    <rect x="15" y="15" width="2" height="2"/>
+                </svg>
+                <div class="top_calendar"></div>
+            </div>
+            <div class="download_button">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                     aria-labelledby="downloadIconTitle" stroke="#000" stroke-width="1.2" stroke-linecap="square"
+                     stroke-linejoin="miter" fill="none" color="#000">
+                    <title id="downloadIconTitle">Скачать расписание в формате .ics</title>
+                    <path d="M12,3 L12,16"/>
+                    <polyline points="7 12 12 17 17 12"/>
+                    <path d="M20,21 L4,21"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% endblock footer %}

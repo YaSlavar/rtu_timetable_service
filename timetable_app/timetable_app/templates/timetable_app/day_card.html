@@ -1,0 +1,45 @@
+{% block day_card %}
+    <div class="day">
+        <a name="{{ date }}"></a>
+        <div class="date">
+            {{ one_day_value.day_name }} {{ date }}
+            {% if one_day_value.today_name %}
+                ({{ one_day_value.today_name }})
+            {% endif %}
+        </div>
+        <div class="day_card {% if date == today_date %} today {% endif %} ">
+            {% for lesson_time, lesson_value in one_day_value.lessons.items %}
+                <table class="day_timetable">
+                    <tr>
+                        <td class="time">
+                            {{ lesson_time }}
+                        </td>
+                        <td class="lesson">
+                            <div class="dist">
+                                {% if lesson_value.discipline %}
+                                    {{ lesson_value.discipline }}
+                                {% else %}
+                                    <div class="dist disable_info disable_dist"></div>
+                                {% endif %}
+                            </div>
+                            <div class="room">
+                                {% if lesson_value.room %}
+                                    {{ lesson_value.room }}
+                                {% else %}
+                                    <div class="room disable_info disable_room"></div>
+                                {% endif %}
+                            </div>
+                            <div class="teacher">
+                                {% if lesson_value.teacher %}
+                                    {{ lesson_value.teacher }}
+                                {% else %}
+                                    <div class="teacher disable_info disable_teacher"></div>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock day_card %}
