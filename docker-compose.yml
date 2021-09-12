@@ -3,7 +3,7 @@ version: "3.9"
 services:
   web:
     build: ./timetable_app
-    command: bash -c "ls && python manage.py runserver 0.0.0.0:8000"
+    command: bash -c "ls && python manage.py runserver --insecure 0.0.0.0:8000"
     volumes:
       - .:/code
       - ./rtu_timetable_api/output:/code/timetable_app/db
