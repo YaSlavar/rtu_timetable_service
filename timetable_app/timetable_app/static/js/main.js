@@ -109,7 +109,7 @@ $(document).ready(function () {
     });
 
     if (group_name) {
-        setCookie('group', group_name, 31536000);
+        setCookie('group_name', group_name, 31536000);
     }
 
     message_box_control({

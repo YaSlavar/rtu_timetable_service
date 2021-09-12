@@ -23,7 +23,7 @@ def index(request):
         TimetableAppConfig.get_create_date_db(DATABASES['default']['NAME'])).strftime('%d.%m.%Y')
 
     try:
-        group_name = request.COOKIES.get('group')
+        group_name = request.COOKIES.get('group_name')
     except KeyError:
         group_name = ''
 
