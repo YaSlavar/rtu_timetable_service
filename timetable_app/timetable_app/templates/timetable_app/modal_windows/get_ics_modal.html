@@ -18,7 +18,8 @@
                                 <label for="select_ics_group">Группа</label>
                                 <select class="select_ics_group form-control" id="select_ics_group" name="group">
                                     {% for group_name in groups_list %}
-                                        <option value="{{ group_name }}">{{ group_name }}</option>
+                                        <option value="{{ group_name }}" {% if group_name == identity_name %}
+                                                selected {% endif %}>{{ group_name }}</option>
                                     {% endfor %}
                                 </select>
 

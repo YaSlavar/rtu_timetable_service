@@ -28,11 +28,13 @@
                             <div class="room">
                                 {% if lesson_value.room %}
                                     {{ lesson_value.room }}
-                                    <div class="lesson_type">
-                                        ( {{ lesson_value.lesson_type }} )
-                                    </div>
                                 {% else %}
                                     <div class="room disable_info disable_room"></div>
+                                {% endif %}
+                            </div>
+                            <div class="lesson_type">
+                                {% if lesson_value.lesson_type %}
+                                    ( {{ lesson_value.lesson_type }} )
                                 {% endif %}
                             </div>
                             <div class="teacher">

@@ -18,8 +18,14 @@ def index(request):
     :param request:
     :return:
     """
+
     update_timetable_date = datetime.fromtimestamp(
         TimetableAppConfig.get_create_date_db(DATABASES['default']['NAME'])).strftime('%d.%m.%Y')
+
+    try:
+        group_name = request.COOKIES.get('group')
+    except KeyError:
+        group_name = ''
 
     groups_list = get_group_names()
     teacher_names_list = get_teacher_names()
@@ -34,15 +40,20 @@ def index(request):
         'rooms_list': rooms_list
     }
 
-    if 'group' in request.GET:
-        group_name = request.GET['group']
-        timetable = StudentTimetable(TimetableAppConfig.TIMETABLE_CONFIG, group_name)
-        timetable_dict = timetable.get_all_timetable()
+    if 'group' in request.GET or group_name:
+        try:
+            group_name = request.GET['group']
+        except KeyError:
+            group_name = group_name
 
-        data['identity_name'] = group_name
-        data['timetable'] = timetable_dict
+        if group_name != '':
+            timetable = StudentTimetable(TimetableAppConfig.TIMETABLE_CONFIG, group_name)
+            timetable_dict = timetable.get_all_timetable()
 
-    if 'teacher' in request.GET:
+            data['identity_name'] = group_name
+            data['timetable'] = timetable_dict
+
+    elif 'teacher' in request.GET:
         teacher_name = request.GET['teacher']
         timetable = TeacherTimetable(TimetableAppConfig.TIMETABLE_CONFIG, teacher_name)
         timetable_dict = timetable.get_all_timetable()
@@ -50,7 +61,7 @@ def index(request):
         data['identity_name'] = teacher_name
         data['timetable'] = timetable_dict
 
-    if 'room' in request.GET:
+    elif 'room' in request.GET:
         room_name = request.GET['room']
         timetable = ClassroomTimetable(TimetableAppConfig.TIMETABLE_CONFIG, room_name)
         timetable_dict = timetable.get_all_timetable()
@@ -58,7 +69,15 @@ def index(request):
         data['identity_name'] = room_name
         data['timetable'] = timetable_dict
 
-    return render(request, 'timetable_app/index.html', context=data)
+    else:
+        pass
+
+    if 'timetable' in data:
+        response = render(request, 'timetable_app/index.html', context=data)
+    else:
+        response = render(request, 'timetable_app/welcome.html', context=data)
+
+    return response
 
 
 def get_ics(request):
@@ -67,13 +86,20 @@ def get_ics(request):
     :param request:
     :return:
     """
-
     datetime_str = datetime.strftime(datetime.now(), "%d.%m.%Y_%H.%M.%S")
+
     group = request.POST['group']
+
     if group:
         timetable = StudentTimetable(TimetableAppConfig.TIMETABLE_CONFIG, group)
 
-        all_timetable = timetable.get_all_timetable()
+        if request.POST['date_from'] and request.POST['date_to']:
+            start_date = datetime.strftime(datetime.strptime(request.POST['date_from'], "%Y-%m-%d"), "%d.%m.%Y")
+            end_date = datetime.strftime(datetime.strptime(request.POST['date_to'], "%Y-%m-%d"), "%d.%m.%Y")
+            all_timetable = timetable.get_timetable_by_dates(start_date, end_date)
+        else:
+            all_timetable = timetable.get_all_timetable()
+
         cal = CalendarGenerator('test', all_timetable, 1)
         cal.generate_calendar_events()
         calendar_file_content = cal.return_calendar_as_text()

@@ -101,6 +101,17 @@ $(document).ready(function () {
         'dropdownParent': get_ics_modal
     });
 
+    $('.select_welcome_group').select2({
+        'width': '100%',
+        'language': 'ru',
+        'theme': 'bootstrap',
+        'tags': true,
+    });
+
+    if (group_name) {
+        setCookie('group', group_name, 31536000);
+    }
+
     message_box_control({
         "is_show": true,
         "key": "08_02_2021_update",
@@ -113,7 +124,7 @@ $(document).ready(function () {
                   <br><br>\
                   Для обратной связи: <a href=\"mailto:ya.slavar@yandex.ru\">ya.slavar@yandex.ru</a> \
                   <br>\
-                  Последнее обновление расписания: 13.03.2021",
+                  Последнее обновление расписания: "+ update_timetable_date,
         "date": "08.02.2021"
     })
 

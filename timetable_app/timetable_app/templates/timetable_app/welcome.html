@@ -1,0 +1,31 @@
+{% extends "timetable_app/base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <div class="container-fluid d-flex h-100 justify-content-center align-items-center p-0 welcome">
+        <div class="row">
+            <div class="col rounded p-4">
+                <h3 class="text-center mb-4">
+                    <a class="logo" href="#{{ today_date }}">Расписание РТУ МИРЭА</a>
+                </h3>
+                <form action="#{{ today_date }}" method="get" name="select_group">
+                    <label for="group">Выберите группу:</label>
+                    <select class="select_welcome_group form-control" id="group" name="group"
+                            onchange="document.forms['select_group'].submit()">
+                        {% for group_name in groups_list %}
+                            <option value="{{ group_name }}" {% if group_name == identity_name %}
+                                    selected {% endif %}>{{ group_name }}</option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    {% block notification_modal %}
+        {% include 'timetable_app/modal_windows/notification_modal.html' %}
+    {% endblock notification_modal %}
+
+{% endblock content %}
+

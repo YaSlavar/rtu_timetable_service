@@ -79,15 +79,34 @@ class Timetable:
         return int(date_obj.strftime('%W')) - week_delta
 
     @staticmethod
-    def get_date_list(date_start: str, day_count: int) -> list[str]:
+    def get_date_list_by_count(date_start: str, day_count: int) -> list[str]:
         """
         Получение списка дат
         :rtype: Список дат list
         """
         date_obj = datetime.strptime(date_start, '%d.%m.%Y')
         date_list = [date_start]
+
         for i in range(day_count + 1):
             calc_date = date_obj + timedelta(i)
+            date_list.append(calc_date.strftime('%d.%m.%Y'))
+
+        return date_list
+
+    @staticmethod
+    def get_date_list_by_dates(date_start: str, date_end: str) -> list[str]:
+        """
+        Получение списка дат
+        :rtype: Список дат list
+        """
+        date_start_obj = datetime.strptime(date_start, '%d.%m.%Y')
+        date_end_obj = datetime.strptime(date_end, '%d.%m.%Y')
+        date_delta = date_start_obj - date_end_obj
+        day_count = abs(date_delta.days)
+        date_list = [date_start]
+
+        for i in range(day_count + 1):
+            calc_date = date_start_obj + timedelta(i)
             date_list.append(calc_date.strftime('%d.%m.%Y'))
 
         return date_list
@@ -322,7 +341,32 @@ class StudentTimetable(Timetable):
             week_count += week_count_for_period
 
         day_count = self.get_day_count_from_week(week_count)
-        date_list = self.get_date_list(self.config['START_DAY'], day_count)
+        date_list = self.get_date_list_by_count(self.config['START_DAY'], day_count)
+
+        timetable_info_list = get_timetable_for_group(self.group.group_name)
+
+        timetable_dict = {}
+
+        for date_str in date_list:
+            date_obj = datetime.strptime(date_str, '%d.%m.%Y').date()
+            day = self.get_day(date_obj)
+            week = self.get_week(date_obj, self.config['WEEK_DELTA'])
+
+            timetable_type = self.get_timetable_type(self.group.semester_week_count, week)
+
+            timetable_dict_for_one_day = self.get_timetable_on_day(timetable_info_list, date_obj, day, week,
+                                                                   timetable_type)
+            timetable_dict[date_str] = timetable_dict_for_one_day
+
+        return timetable_dict
+
+    def get_timetable_by_dates(self, start_date: str, end_date: str):
+        """
+        Получение всего расписания
+        :return:
+        """
+
+        date_list = self.get_date_list_by_dates(start_date, end_date)
 
         timetable_info_list = get_timetable_for_group(self.group.group_name)
 
@@ -387,7 +431,7 @@ class TeacherTimetable(Timetable):
         week_count = 21  # TODO: Поправить вычисление количества недель для преподавателей
 
         day_count = self.get_day_count_from_week(week_count)
-        date_list = self.get_date_list(self.config['START_DAY'], day_count)
+        date_list = self.get_date_list_by_count(self.config['START_DAY'], day_count)
 
         timetable_info_list = get_timetable_for_teacher(self.teacher.teacher_name)
 
@@ -452,7 +496,7 @@ class ClassroomTimetable(Timetable):
         week_count = 21  # TODO: Поправить вычисление количества недель для преподавателей
 
         day_count = self.get_day_count_from_week(week_count)
-        date_list = self.get_date_list(self.config['START_DAY'], day_count)
+        date_list = self.get_date_list_by_count(self.config['START_DAY'], day_count)
 
         timetable_info_list = get_timetable_for_teacher(self.classroom.classroom)
 

@@ -13,7 +13,12 @@
     padding-right: 20px;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     font-family: Roboto-Regular, serif;
     background: white;
 }
@@ -40,6 +45,10 @@ div#logo_block {
     font-size: 1.6em;
     color: black;
     padding: 15px 0 15px 25px;
+    font-weight: bold;
+}
+
+.logo {
     font-weight: bold;
 }
 
@@ -105,7 +114,7 @@ div#num_week {
     box-shadow: 0 9px 19px 1px #00b8a93d;
 }
 
-.weekend{
+.weekend {
     box-shadow: 0 9px 19px 1px #B800003D;
 }
 
@@ -120,7 +129,7 @@ TD {
 
 TD.time {
     width: 50px;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #f6416c;
     padding: 5px 15px 5px 5px;
 }
@@ -131,18 +140,18 @@ TD.lesson {
 
 .dist {
     min-height: 15px;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .room {
     color: #00b8a9;
-    font-size: 1em;
+    font-size: 0.9em;
     display: flex;
 }
 
-.lesson_type{
+.lesson_type {
     color: #aaaaaa;
-    margin-left: 5px;
+    font-size: 0.9em;
 }
 
 .teacher {
