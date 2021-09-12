@@ -22,5 +22,5 @@ urlpatterns = [
     path('', include('timetable_app.urls')),
 ]
 
-# handler404 = e_handler404
-# handler500 = e_handler500
+handler404 = "timetable_app.views.handler404"
+handler500 = "timetable_app.views.handler500"

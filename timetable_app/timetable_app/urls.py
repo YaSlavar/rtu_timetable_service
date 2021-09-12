@@ -26,3 +26,4 @@ urlpatterns = [
     path('', index),
     path('get_ics', get_ics),
 ]
+

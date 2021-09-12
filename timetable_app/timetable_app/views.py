@@ -86,6 +86,7 @@ def get_ics(request):
     :param request:
     :return:
     """
+
     datetime_str = datetime.strftime(datetime.now(), "%d.%m.%Y_%H.%M.%S")
 
     group = request.POST['group']
@@ -110,3 +111,11 @@ def get_ics(request):
         response = HttpResponse(calendar_file_content, content_type='text/plain; charset=UTF-8')
         response['Content-Disposition'] = ('attachment; filename={0}'.format(filename))
         return response
+
+
+def handler404(request, exception):
+    return redirect('/')
+
+
+def handler500(request):
+    return redirect('/')
