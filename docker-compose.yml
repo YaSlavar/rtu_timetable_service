@@ -3,16 +3,17 @@ version: "3.9"
 services:
   web:
     build: ./timetable_app
-    command: bash -c "ls && python manage.py runserver --insecure 0.0.0.0:8000"
+#    command: bash -c "ls && python manage.py runserver --insecure 0.0.0.0:8000"
+    command: gunicorn timetable.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - .:/code
       - ./rtu_timetable_api/output:/code/timetable_app/db
+#      - ./timetable_app/timetable_app/static:/code/timetable_app/timetable_app/static
+#      - ./timetable_app/timetable_app/media:/code/timetable_app/timetable_app/media
     ports:
-      - "80:8000"
+      - "8000:8000"
     env_file:
       - ./env.dev
-    depends_on:
-      - api
 
   api:
     build: ./rtu_timetable_api
@@ -24,4 +25,22 @@ services:
       - "5000:8000"
     env_file:
       - ./env.dev
+    depends_on:
+      - web
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    env_file:
+      - ./env.dev
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/cert:/certs:ro
+      - ./timetable_app/timetable_app/static:/data/static
+      - ./timetable_app/timetable_app/media:/data/media
+      - ./logs:/var/log
+    depends_on:
+      - web
 

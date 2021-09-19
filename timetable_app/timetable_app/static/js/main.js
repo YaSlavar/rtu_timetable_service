@@ -31,6 +31,12 @@ function formatDate(date) {
 
 $(document).ready(function () {
 
+    window.onload = function () {
+        location.href = "#top";
+        location.href = "#" + formatDate(new Date);
+    };
+
+
     $('.calendar_button').click(function () {
         $('.top_calendar').toggle();
     });
@@ -124,7 +130,7 @@ $(document).ready(function () {
                   <br><br>\
                   Для обратной связи: <a href=\"mailto:ya.slavar@yandex.ru\">ya.slavar@yandex.ru</a> \
                   <br>\
-                  Последнее обновление расписания: "+ update_timetable_date,
+                  Последнее обновление расписания: " + update_timetable_date,
         "date": "08.02.2021"
     })
 
