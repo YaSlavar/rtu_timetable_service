@@ -33,7 +33,7 @@ function formatDate(date) {
 
 function setTheme(theme = '') {
 
-    let dark_color = '#3e3d3d';
+    let dark_color = '#0a0a0a';
     let light_color = '#ffffff';
     let body_obj = $('body');
     let theme_switcher_obj = $('.theme_switcher');
