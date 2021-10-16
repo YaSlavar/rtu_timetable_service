@@ -31,7 +31,7 @@ body {
 :root {
     --dark-body-background-color: #3e3d3d;
     --dark-background-color: #373737;
-    --dark-separator-color: #0000006f;
+    --dark-separator-color: white;
     --dark-logo-color: white;
     --dark-border-color: #afafaf35;
     --dark-border_top-color: #0000000f;
