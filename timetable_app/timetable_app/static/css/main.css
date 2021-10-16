@@ -29,29 +29,29 @@ body {
 
 /* DARK THEME*/
 :root {
-    --dark-body-background-color: #3e3d3d;
-    --dark-background-color: #373737;
-    --dark-separator-color: white;
-    --dark-logo-color: white;
-    --dark-border-color: #afafaf35;
-    --dark-border_top-color: #0000000f;
-    --dark-num_week-color: #d2d2d23d;
-    --dark-shadow-color: #cccccc29;
+    --dark-body-background-color: #131313;
+    --dark-background-color: #0a0a0a;
+    --dark-separator-color: #ffffffde;
+    --dark-logo-color: #ffffffde;
+    --dark-border-color: #63636396;
+    --dark-border_top-color: #f1f1f11c;
+    --dark-num_week-color: #d2d2d296;
+    --dark-shadow-color: #cccccc38;
     --dark-today-color: #00ffea54;
     --dark-weekend-color: #ff42423d;
     --dark-time-color: #f6416c;
     --dark-room-color: #00b8a9;
     --dark-lesson_type-color: #aaaaaa;
     --dark-teacher-color: #7f93ab;
-    --dark-disable_info-color: #ffffff0a;
+    --dark-disable_info-color: #ffffff1a;
     --dark-feedback-color: #939393;
     --dark-datepicker_active-color: #1e7e34;
     --dark-datepicker_weekend-color: #50585d;
     --dark-datepicker_today-color: #00b8a9;
     --dark-calendar_icon_hover-color: #007bff;
     --dark-toast_tail_shadow-color: #00000019;
-    --dark-text-color: white;
-    --dark-fill_icon-color: white;
+    --dark-text-color: #ffffffde;
+    --dark-fill_icon-color: #ffffffde;
     --dark-modal_backdrop-color: #424242;
 }
 
@@ -332,6 +332,10 @@ TD.lesson {
     background: var(--datepicker_weekend-color);
 }
 
+.datepicker table tr td.day:hover, .datepicker table tr td.day.focused {
+    background: var(--datepicker_weekend-color);
+}
+
 .datepicker table tr td.active {
     background-image: none;
     background-color: var(--datepicker_active-color);
@@ -383,6 +387,10 @@ TD.lesson {
 }
 
 .close {
+    color: var(--fill_icon-color);
+}
+
+.close:hover {
     color: var(--fill_icon-color);
 }
 
