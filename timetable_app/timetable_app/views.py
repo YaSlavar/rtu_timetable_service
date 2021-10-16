@@ -9,7 +9,7 @@ from timetable_app.utils.timetable_controller import get_group_names, get_teache
 from timetable_app.utils.calendar_generator import CalendarGenerator
 from timetable_app.apps import TimetableAppConfig
 from datetime import datetime
-from timetable.settings import DATABASES
+from timetable.settings import DATABASES, VERSION
 
 
 def index(request):
@@ -37,7 +37,8 @@ def index(request):
         'update_timetable_date': update_timetable_date,
         'groups_list': groups_list,
         'teacher_names_list': teacher_names_list,
-        'rooms_list': rooms_list
+        'rooms_list': rooms_list,
+        'version': VERSION
     }
 
     if 'group' in request.GET or group_name:

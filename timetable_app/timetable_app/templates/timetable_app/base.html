@@ -8,45 +8,45 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="{% static "favicon/apple-icon-57x57.png" %}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{% static "favicon/apple-icon-60x60.png" %}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{% static "favicon/apple-icon-72x72.png" %}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{% static "favicon/apple-icon-76x76.png" %}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{% static "favicon/apple-icon-114x114.png" %}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{% static "favicon/apple-icon-120x120.png" %}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{% static "favicon/apple-icon-144x144.png" %}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{% static "favicon/apple-icon-152x152.png" %}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static "favicon/apple-icon-180x180.png" %}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static "favicon/apple-icon-57x57.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static "favicon/apple-icon-60x60.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static "favicon/apple-icon-72x72.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static "favicon/apple-icon-76x76.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static "favicon/apple-icon-114x114.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static "favicon/apple-icon-120x120.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static "favicon/apple-icon-144x144.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static "favicon/apple-icon-152x152.png" %}?version={{ version }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static "favicon/apple-icon-180x180.png" %}?version={{ version }}">
     <link rel="icon" type="image/png" sizes="192x192"
-          href="{% static "favicon/android-icon-192x192.png" %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static "favicon/favicon-32x32.png" %}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{% static "favicon/favicon-96x96.png" %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static "favicon/favicon-16x16.png" %}">
-    <link rel="manifest" href="{% static "favicon/manifest.json" %}">
+          href="{% static "favicon/android-icon-192x192.png" %}?version={{ version }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static "favicon/favicon-32x32.png" %}?version={{ version }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static "favicon/favicon-96x96.png" %}?version={{ version }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static "favicon/favicon-16x16.png" %}?version={{ version }}">
+    <link rel="manifest" href="{% static "favicon/manifest.json" %}?version={{ version }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="yandex-verification" content="6990c8ac978b974f"/>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{% static "lib/bootstrap/css/bootstrap.css" %}">
-    <link rel="stylesheet" href="{% static "lib/bootstrap-datepicker/css/bootstrap-datepicker.css" %}">
-    <link rel="stylesheet" href="{% static "lib/select2/select2.css" %}">
-    <link rel="stylesheet" href="{% static "lib/select2/select2.bootstrap.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/main.css" %}">
+    <link rel="stylesheet" href="{% static "lib/bootstrap/css/bootstrap.css" %}?version={{ version }}">
+    <link rel="stylesheet" href="{% static "lib/bootstrap-datepicker/css/bootstrap-datepicker.css" %}?version={{ version }}">
+    <link rel="stylesheet" href="{% static "lib/select2/select2.css" %}?version={{ version }}">
+    <link rel="stylesheet" href="{% static "lib/select2/select2.bootstrap.min.css" %}?version={{ version }}">
+    <link rel="stylesheet" href="{% static "css/main.css" %}?version={{ version }}">
 
-    <script type="text/javascript" src="{% static "lib/jquery-3.2.1.min.js" %}"></script>
-    <script type="text/javascript" src="{% static "lib/jquery-ui.min.js" %}"></script>
-    <script type="text/javascript" src="{% static "lib/jquery.ui.touch-punch.min.js" %}"></script>
-    <script type="text/javascript" src="{% static "js/messageBoxController.js" %}"></script>
+    <script type="text/javascript" src="{% static "lib/jquery-3.2.1.min.js" %}?version={{ version }}"></script>
+    <script type="text/javascript" src="{% static "lib/jquery-ui.min.js" %}?version={{ version }}"></script>
+    <script type="text/javascript" src="{% static "lib/jquery.ui.touch-punch.min.js" %}?version={{ version }}"></script>
+    <script type="text/javascript" src="{% static "js/messageBoxController.js" %}?version={{ version }}"></script>
     <script type="text/javascript"
-            src="{% static "lib/bootstrap-datepicker/js/bootstrap-datepicker.js" %}"></script>
+            src="{% static "lib/bootstrap-datepicker/js/bootstrap-datepicker.js" %}?version={{ version }}"></script>
     <script type="text/javascript"
-            src="{% static "lib/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" %}"></script>
+            src="{% static "lib/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" %}?version={{ version }}"></script>
     <script type="text/javascript"
-            src="{% static "lib/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
-    <script type="text/javascript" src="{% static "lib/select2/select2.full.min.js" %}"></script>
-    <script type="text/javascript" src="{% static "lib/select2/ru.js" %}"></script>
+            src="{% static "lib/bootstrap/js/bootstrap.bundle.min.js" %}?version={{ version }}?version={{ version }}"></script>
+    <script type="text/javascript" src="{% static "lib/select2/select2.full.min.js" %}?version={{ version }}"></script>
+    <script type="text/javascript" src="{% static "lib/select2/ru.js" %}?version={{ version }}"></script>
     <script type="text/javascript">
         let group_name = '{{ identity_name }}';
         let update_timetable_date = '{{ update_timetable_date }}';
@@ -78,7 +78,7 @@
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
-<script type="text/javascript" src="{% static "js/main.js" %}"></script>
+<script type="text/javascript" src="{% static "js/main.js" %}?version={{ version }}"></script>
 
 {% block content %}
 
