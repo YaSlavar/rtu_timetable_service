@@ -32,9 +32,16 @@ function formatDate(date) {
 }
 
 function setTheme(theme = '') {
+
+    let dark_color = '#3e3d3d';
+    let light_color = '#ffffff';
     let body_obj = $('body');
-    console.log(body_obj);
     let theme_switcher_obj = $('.theme_switcher');
+
+    let meta_theme_color = $('meta[name=theme-color]');
+    let meta_msapplication_TileColor = $('meta[name=msapplication-TileColor]');
+    let meta_msapplication_navbutton_color = $('meta[name=msapplication-navbutton-color]');
+    let meta_apple_mobile_web_app_status_bar_style = $('meta[name=apple-mobile-web-app-status-bar-style]');
 
     if (theme === '') {
         if (theme_switcher_obj.hasClass('light')) {
@@ -56,6 +63,10 @@ function setTheme(theme = '') {
             '</svg>'
         );
         body_obj.addClass('theme-light');
+        meta_theme_color.attr('content', light_color);
+        meta_msapplication_TileColor.attr('content', light_color);
+        meta_msapplication_navbutton_color.attr('content', light_color);
+        meta_apple_mobile_web_app_status_bar_style.attr('content', light_color);
     } else {
         theme_switcher_obj.removeClass('dark');
         theme_switcher_obj.addClass('light');
@@ -66,11 +77,16 @@ function setTheme(theme = '') {
             '</svg>'
         );
         body_obj.addClass('theme-dark');
+        meta_theme_color.attr('content', dark_color);
+        meta_msapplication_TileColor.attr('content', dark_color);
+        meta_msapplication_navbutton_color.attr('content', dark_color);
+        meta_apple_mobile_web_app_status_bar_style.attr('content', dark_color);
     }
     setCookie('theme', theme, 31536000)
 }
 
 function initTheme() {
+
     let installed_theme = getCookie('theme');
     if (installed_theme === undefined || installed_theme === 'light') {
         setTheme('light');
