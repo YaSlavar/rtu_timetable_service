@@ -10,7 +10,7 @@ https://docs.docker.com/compose/install/
 5. cd rtu_timetable_api
 6. mkdir logs
 7. git submodule init
-8. git submodule update --recursive --remote
+8. git submodule update --force --recursive --init --remote
 9. docker-compose build
 10. docker-compose up
 

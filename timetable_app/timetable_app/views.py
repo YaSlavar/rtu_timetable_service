@@ -50,7 +50,6 @@ def index(request):
         if group_name != '':
             timetable = StudentTimetable(TimetableAppConfig.TIMETABLE_CONFIG, group_name)
             timetable_dict = timetable.get_all_timetable()
-
             data['identity_name'] = group_name
             data['timetable'] = timetable_dict
 

@@ -55,7 +55,7 @@ class Timetable:
         _week_count = 0
         for semester_type, week_count_dict in week_count_dict.items():
             _week_count += week_count_dict
-            if week <= week_count_dict:
+            if week <= _week_count:
                 return semester_type
         return None
 
@@ -76,7 +76,11 @@ class Timetable:
         :param week_delta: Дельта недель
         :return: Номер недели
         """
-        return int(date_obj.strftime('%W')) - week_delta
+        calculate_week_num = int(date_obj.strftime('%W')) - week_delta
+        if calculate_week_num < 1:  # Если номер недели вышел за пределы диапазона
+            return int(date_obj.strftime('%W')) + 52 - week_delta
+        else:
+            return calculate_week_num
 
     @staticmethod
     def get_date_list_by_count(date_start: str, day_count: int) -> list[str]:
@@ -192,7 +196,10 @@ class Timetable:
             if isinstance(lesson_info['call_time'], time):
                 lesson_info['call_time'] = lesson_info['call_time'].strftime('%H:%M')
 
-            if (lesson_info['day'] == day and lesson_info['week'] == parity_week) or lesson_info['date'] == date:
+            date_str = date.strftime('%d.%m')
+
+            # Если занятие попадает в отображение по номеру дня + номеру недели или по дате
+            if (lesson_info['day'] == day and lesson_info['week'] == parity_week) or str(lesson_info['day']) == date_str:
                 lesson_info = self.is_show(lesson_info, week)
                 if lesson_info['show'] != '' and lesson_info['occupation'] in timetable_type:
                     result_timetable['lessons'][lesson_info['call_time']] = lesson_info
@@ -519,6 +526,7 @@ class ClassroomTimetable(Timetable):
 if __name__ == "__main__":
     timetable = StudentTimetable(TimetableAppConfig.TIMETABLE_CONFIG, 'ИНМО-01-20')
 
+    print(timetable.get_all_timetable())
     print(timetable.get_timetable('23.02.2021'))
     print(timetable.get_timetable('24.02.2021'))
     print(timetable.get_timetable_today())
